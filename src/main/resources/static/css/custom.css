@@ -1,0 +1,149 @@
+
+.nav-pills .nav-link:hover,.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #05a5a5!important;
+}
+.nav-pills li.active .nav-link,.dropdown-menu li.active .dropdown-item{
+    background-color: teal!important;
+}
+
+.dropend ul.dropdown-menu{
+    background-color:#3d3f41!important;
+}
+ul.dropdown-menu .dropdown-item{
+    color:white!important;
+}
+
+a {
+    text-decoration: none!important;
+    color: black!important;
+}
+
+.b-example-divider{
+    width:0px!important;
+}
+
+.disabletoggle ul.nav.nav-pills li.attendance a:after {
+    content: "Attendance";
+}
+.disabletoggle ul.nav.nav-pills li.dashboard a:after {
+    content:"Dashboard"
+}
+.disabletoggle ul.nav.nav-pills li.purchase a:after {
+    content:"Purchase Items"
+}
+.disabletoggle ul.nav.nav-pills li.items a:after {
+    content:"Items"
+}
+.disabletoggle ul.nav.nav-pills li.schedule a:after {
+    content:"Schedule"
+}
+.disabletoggle ul.nav.nav-pills li.setting a:after {
+    content:"Settings    "
+}
+.disabletoggle ul.nav.nav-pills li.regemployee a:after {
+    content:"Reg.Employee"!important;
+}
+li.dropend ul.dropdown-menu li.account_settings a:after {
+    content:"Account"!important;
+}
+li.dropend ul.dropdown-menu li.item_settings a:after {
+    content:"Items"!important;
+}
+li.dropend ul.dropdown-menu li.other_settings a:after {
+    content:"Others"!important;
+}
+.dropend .dropdown-toggle::after{
+border-left:0px!important;
+}
+.hamburder:hover {
+    background-color: teal;
+}
+.hamburder {
+    color: white!important;
+    border-radius: 10px;
+    background-color: gray;
+    padding-left: 7px;
+    padding-top: 3px;
+}
+.hamburder2:hover {
+    background-color: teal;
+}
+.hamburder2 {
+    color: white!important;
+    border-radius: 10px;
+    background-color: gray;
+    padding-left: 7px;
+    padding-top: 3px;
+}
+.disabletoggle{
+    transition: all 0.5s;
+    width: 250px;
+}
+.disabletoggle .hamburder2{
+    display:none;
+}
+
+
+.enabletoggle {
+    background-color: #212529!important;
+    padding: 6px 12px;
+    transition: all 0.5s;
+    width: 73px!important;
+}
+.enabletoggle .hamburder2{
+    display:block!important;
+}
+
+.enabletoggle .hamburder {
+    display:none;
+}
+.enabletoggle ul.nav.nav-pills li.list {
+    width: 50px;
+}
+.enabletoggle ul.nav.nav-pills li a {
+    outline: none;
+}
+.enabletoggle ul.nav.nav-pills li.attendance a:after {
+    content:""
+}
+.enabletoggle ul.nav.nav-pills li.dashboard a:after {
+    content:""
+}
+.enabletoggle ul.nav.nav-pills li.purchase a:after {
+    content:""
+}
+.enabletoggle ul.nav.nav-pills li.items a:after {
+    content:""
+}
+.enabletoggle ul.nav.nav-pills li.schedule a:after {
+    content:""
+}
+.enabletoggle ul.nav.nav-pills li.setting a:after {
+    content:""
+}
+.enabletoggle ul.nav.nav-pills li.regemployee a:after {
+    content:""
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
